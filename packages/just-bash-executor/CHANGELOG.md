@@ -1,5 +1,12 @@
 # @just-bash/executor
 
+## 7.0.0
+
+### Patch Changes
+
+- Updated dependencies [[`7313062`](https://github.com/vercel-labs/just-bash/commit/7313062a04dc9c04a7a7c4bc2f1e2f2b8d9097f0), [`a36c324`](https://github.com/vercel-labs/just-bash/commit/a36c3248d001e227378879c94a31b9fb54e6bd11), [`31ac823`](https://github.com/vercel-labs/just-bash/commit/31ac823989ae8decc1bc534eee5caaede6d5fef3), [`017a911`](https://github.com/vercel-labs/just-bash/commit/017a911d3b687d44bb0e2de707b78f02ec825569), [`128feaa`](https://github.com/vercel-labs/just-bash/commit/128feaae87b438d7484d55bd22abbd4d106a4aa0), [`130da94`](https://github.com/vercel-labs/just-bash/commit/130da942f0ebd948bd957c1208ec8908503281b7), [`0353b22`](https://github.com/vercel-labs/just-bash/commit/0353b22ca56ae88f06a5c4e9c784ca9b075051b2), [`cc35fab`](https://github.com/vercel-labs/just-bash/commit/cc35fab4ffdd7498dd45ab6d2247a95b5db551ee), [`4ee035b`](https://github.com/vercel-labs/just-bash/commit/4ee035b6770bb0d6fd7998f22ea6651544433cf9), [`5d19cc3`](https://github.com/vercel-labs/just-bash/commit/5d19cc373e691f389a2e5c1ba24766b14fb08bad)]:
+  - just-bash@3.6.0
+
 ## 6.0.0
 
 ### Patch Changes
