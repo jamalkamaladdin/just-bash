@@ -188,3 +188,26 @@ export function parseAssocArrayLiteral(
 
   return entries;
 }
+
+/**
+ * Parse the content of an associative compound assignment NAME=(...).
+ * Keyed content like "[k]=v [j]=w" gives its pairs; bare words alternate
+ * between key and value, so "k1 v1 k2" gives [k1]=v1 and [k2]="".
+ */
+export function parseAssocArrayContent(
+  content: string,
+  limits?: ArrayParseLimits,
+): [string, string][] {
+  if (content.includes("[")) {
+    return parseAssocArrayLiteral(content, limits);
+  }
+  const words = parseArrayElements(
+    content,
+    limits && { ...limits, maxElements: limits.maxElements * 2 },
+  );
+  const entries: [string, string][] = [];
+  for (let i = 0; i < words.length; i += 2) {
+    entries.push([words[i], words[i + 1] ?? ""]);
+  }
+  return entries;
+}
